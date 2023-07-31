@@ -1,0 +1,268 @@
+/******************* Phone/Mobile Screen ******************* */
+
+/*-------------------------HEADER--------------------------- */
+
+section.header{
+    background-image: url("../img/banners/blogban-mobile.png");
+    background-color: #8A75D1;
+    height: 65vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/*-------------------------- BUTTONS ------------------------ */
+
+section.guide{
+    display: none;
+    flex-direction: column;
+    margin: 5vh 10vw 0vh 10vw;
+    align-content: center;
+}
+
+button.guide{
+    margin-bottom: 2%;
+}
+
+.type-btn{
+    height: 1.8em;
+    width: fit-content;
+    padding: 0 2px;
+    text-transform: uppercase ;
+} 
+
+.all{
+    background-color: #C4C4C4;
+    border-color: #C4C4C4;
+}
+
+.event{
+    background-color: #ff6d6a;
+    border-color: #ff6d6a;
+}
+.workshop{
+    background-color: #89C23F;
+    border-color: #89C23F;
+}
+.recipe{
+    background-color: #FCD757;
+    border-color: #FCD757;
+}
+.t-blog{
+    background-color: #8A75D1;
+    border-color: #8A75D1;
+}
+
+.all:hover{
+    background-color: #C4C4C4;
+}
+.workshop:hover{
+    background-color: #89C23F;
+}
+.event:hover{
+    background-color: #ff6d6a;
+}
+.recipe:hover{
+    background-color: #FCD757;
+}
+.t-blog:hover{
+    background-color: #8A75D1;
+}
+
+/* NOTE: in case you use the filter option enable this part and desable the hover one above */
+/* .all:hover{
+    color: #C4C4C4;
+}
+.workshop:hover{
+    color: #89C23F;
+}
+.event:hover{
+    color: #ff6d6a;
+}
+.recipe:hover{
+    color: #FCD757;
+}
+.t-blog:hover{
+    color: #8A75D1;
+}
+.recipe:active{
+    color: #FCD757;
+}
+.t-blog:active{
+    color: #8A75D1;
+}
+.workshop:active{
+    color: #89C23F;
+}
+.workshop:active{
+    color: #89C23F;
+}
+.all:active{
+    color: #C4C4C4;
+} */
+
+
+/*-------------------------- BLOGS ------------------------ */
+
+/*-------------------------CARD--------------------------- */
+
+section.BLOG{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10vh 0 2vh 0 ;
+    width: 100vw;
+
+}
+
+section.line{
+    flex-direction: column;
+    margin: 0 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.mid-line{
+    z-index: 10;
+    position: relative;
+    top:-50px;
+}
+
+.b-card{
+    width: 85vw;
+    height: 70vh;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+.b-photo{
+    height: 60%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div.act-1{
+    background-image: url("../img/pictures/cake.png");
+    background-size: cover;
+}
+
+.b-description{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 5%;
+}
+
+.b-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+    font-size: .9em;
+    margin: 4% 0;
+}
+
+.botom-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: .5em 0; */
+}
+
+.b-time{
+    font-weight: 300; 
+    font-size: .7em;
+}
+
+.b-btn{
+    background-color: #4EC3E0;
+    border-color: #4EC3E0;
+    margin: 10vh 0 0 0;
+}
+
+.b-btn:hover{
+    background-color: #fff;
+    color: #4EC3E0;
+}
+
+section.hide{
+    display: none;
+}
+
+.lb-hide{
+    display: block;
+}
+
+.a-btn{
+    background-color: #4EC3E0;
+    border-color: #4EC3E0;
+}
+
+.a-btn:hover{
+    background-color: #fff;
+    color: #4EC3E0;
+}
+
+section.more{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 10vh;
+    /* width: 100%; */
+}
+
+/******************** Desktop Screen *********************** */
+@media screen and (min-width: 950px) {
+
+    section.header{
+        background-image: url("../img/banners/blogban-desktop.png");
+        height: 40vh;
+    }
+
+    /*-------------------- EVENTS------------------------ */
+
+    section.guide{
+        display: flex;
+        flex-direction: row;
+        margin: 5vh 10vw 10vh 10vw;
+        width: 80vw;
+    }
+
+    button.guide{
+        margin: 1.5em;
+    }
+
+     /*--------------------CARD---------------------------- */
+     section.BLOG{
+        display: flex;
+        flex-direction: row;
+        margin: 5vh 0 0 0;
+    }
+
+    section.hide{
+        display: flex;
+    }
+
+    .lb-hide{
+        display: none;
+    }
+    
+    .b-card{
+        width: 25vw;
+        height: 50vh;
+        margin-bottom: 6vh;
+    }
+
+    .b-description{
+       
+        margin: 2%;
+        /* height: 25%; */
+    }
+
+    .botom-card{
+        margin: 0;
+    }
+}

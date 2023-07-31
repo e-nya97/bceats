@@ -1,0 +1,415 @@
+/******************* Phone/Mobile Screen ******************* */
+
+/*---------------------VISIT A FARM------------------------- */
+
+section.act-visit{
+    background-color: #ff6d6a;
+    height: 120vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h1.av-title{
+    padding: 15% 20% 5% 20%;
+    color: #fff;
+    font-size: 2.1em;
+}
+
+
+section.av-card{
+    width: 90%;
+    height: 65%; 
+    align-items: center;
+    text-align: center;
+    box-shadow: none;
+}
+
+.av-description{
+    display: flex;
+    height: 20%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10% 12%;
+}
+
+.av-photo{
+    width: 100%;
+    height: 70%;
+    background-image: url("../img/pictures/strawberry.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: content-box;
+    margin: 0%;
+}
+
+.av-title{
+    padding: 1% 0 3% 0;
+}
+
+.av-text{
+    
+    font-size: .9em;
+    font-weight: 300;
+}
+
+.av-line{
+    margin: 8%;
+}
+
+.av-btn{
+    background-color: #89C23F;
+    border-color: #89C23F;
+}
+.av-btn:hover{
+    color: #89C23F;
+}
+
+/*-------------------------- EVENTS ------------------------ */
+
+.sec-title{
+    color: #FCD757;
+    padding-bottom: 30px;
+}
+
+section.activities{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10vh 0 5vh 0 ;
+    width: 100vw;
+}
+
+section.line{
+    flex-direction: column;
+    margin: 0 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.mid-line{
+    z-index: 10;
+
+    position: relative;
+    top:-50px;
+}
+
+.a-card{
+    width: 90vw;
+    height: 75vh;
+    margin-bottom: 30px;
+}
+
+.a-photo{
+    height: 75%;
+    width: 100%;
+}
+
+div.act-1{
+    background-image: url("../img/pictures/act1.png");
+    background-size: cover;
+}
+
+div.act-2{
+    background-image: url("../img/pictures/act2.png");
+    background-size: cover;
+}
+
+div.act-3{
+    background-image: url("../img/pictures/act3.png");
+    background-size: cover;
+}
+
+div.act-4{
+    background-image: url("../img/pictures/act4.png");
+    background-size: cover;
+}
+
+div.act-5{
+    background-image: url("../img/pictures/act5.png");
+    background-size: cover;
+}
+
+div.act-6{
+    background-image: url("../img/pictures/act6.png");
+    background-size: cover;
+}
+
+div.act-7{
+    background-image: url("../img/pictures/act7.png");
+    background-size: cover;
+}
+
+div.act-8{
+    background-image: url("../img/pictures/act8.png");
+    background-size: cover;
+}
+
+div.act-9{
+    background-image: url("../img/pictures/act9.png");
+    background-size: cover;
+}
+
+.a-description{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.2em 1em;
+}
+
+section.guide{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5vh;
+    width: 100%;
+}
+
+button.guide{
+    margin-bottom: 8%;
+}
+
+.type-btn{
+    height: 1.8em;
+    width: fit-content;
+    padding: 0 2px;
+} 
+.event{
+    background-color: #ff6d6a;
+    border-color: #ff6d6a;
+}
+
+.all{
+    background-color: #C4C4C4;
+    border-color:#C4C4C4;
+}
+.workshop{
+    background-color: #89C23F;
+    border-color: #89C23F;
+}
+
+.all:hover{
+    background-color: #C4C4C4;
+}
+.workshop:hover{
+    background-color: #89C23F;
+}
+.event:hover{
+    background-color: #ff6d6a;
+}
+
+/* NOTE: in case you use the filter option enable this part and desable the hover one above */
+/* .all:hover{
+    color: #C4C4C4;
+}
+.workshop:hover{
+    color: #89C23F;
+}
+.event:hover{
+    color: #ff6d6a;
+}
+.workshop:active{
+    color: #89C23F;
+}
+.event:active{
+    color: #ff6d6a;
+}
+.all:active{
+    color: #C4C4C4;
+} */
+
+.a-text{
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+    font-size: .9em;
+}
+
+.botom-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: .5em 0;
+}
+
+.a-time{
+    font-weight: 300; 
+    font-size: .9em;
+}
+
+.a-btn{
+    background-color: #4EC3E0;
+    border-color: #4EC3E0;
+    margin: 10vh 0 0 0;
+}
+
+.a-btn:hover{
+    background-color: #fff;
+    color: #4EC3E0;
+}
+
+section.hide{
+    display: none;
+}
+
+.lb-hide{
+    display: block;
+}
+
+
+/*---------------------------- MAP ------------------------- */
+
+section.map{
+    height:120vh;
+    width: 100vw;
+    
+    padding: 4vh 0vw 1vh 0;
+    background-color: #4ec3e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.e-description{
+    width: 90%;
+    height: fit-content;
+    
+    margin: 0 2vw 5vh 2vw;
+
+    color: #fff;
+}
+
+.m-title{
+    font-size: 1.2em;
+    margin-bottom: 5vh;
+}
+
+.m-text{
+    margin: 3vh 5vw;
+    font-weight: 300;
+    font-size: .9em;
+}
+
+iframe.googlemap{
+    border-radius: 3px;
+    width: 90%;
+    height: 50%;
+}
+
+/******************** Desktop Screen *********************** */
+@media screen and (min-width: 950px) {
+
+    section.card{
+        padding: 5px;
+    }
+
+    /*----------------VISIT A FARM------------------------- */
+
+    section.act-visit{
+        height: 85vh;
+    }
+    
+    h1.av-title{
+        padding: 3% 0;
+        font-size: 3.2em;
+    }
+    
+    section.av-card{
+        width: 40%;
+        height: 60%; 
+    }
+    
+    .av-description{
+        margin: 2% 12%;
+    }
+    
+    .av-photo{
+        height: 80%;
+    }
+    
+    .av-title{
+        padding: 1% 0 3% 0;
+    }
+    
+    .av-text{
+        
+        font-size: .9em;
+        font-weight: 300;
+    }
+    
+    .av-line{
+        margin: 2%;
+    }
+
+    
+
+    /*-------------------- EVENTS------------------------ */
+
+    section.activities{
+        display: flex;
+        flex-direction: row;
+    }
+
+    section.hide{
+        display: flex;
+    }
+
+    .lb-hide{
+        display: none;
+    }
+
+    .a-card{
+        width: 22vw;
+    }
+
+    .a-description{
+        height: 25%;
+    }
+
+    .botom-card{
+        margin: 0;
+    }
+
+
+    /*--------------------- MAP ------------------------ */
+
+    section.map{
+        height: 70vh;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+
+        padding: 0 10vw;
+    }
+
+    .e-description{
+        width:38%;
+        margin: 0 2vw 0 0;
+    }
+
+    iframe.googlemap{
+        border-radius: 3px;
+        width: 50%;
+        height: 60%;
+    }
+
+    .m-text{
+        margin: 0;
+        font-weight: 300;
+        font-size: 1em;
+    }
+
+    .m-title{
+        font-size: 2em;
+        margin-bottom: 5vh;
+    }
+    
+}

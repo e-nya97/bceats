@@ -1,0 +1,232 @@
+/******************* Phone/Mobile Screen ******************* */
+
+section.banner{
+    background-position: center;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*-------------------------HEADER--------------------------- */
+
+section.header{
+    background-image: url("../img/banners/CnDban-mobile.png");
+    height: 80vh;
+    background-position: center;
+}
+
+/*--------------------------INFO--------------------------- */
+
+section.info{
+    height: fit-content;
+    padding: 100px 55px 160px;
+    text-align: center;
+    font-weight: 300;
+}
+
+h1.i-title{
+    color: #8A75D1 ;
+    padding: 0 0 40px 0;
+}
+
+div.i-text{
+    margin-top: 2em;
+    line-height: 2em;
+}
+
+
+/*-----------------DONATE OPTIONS-------------------- */
+
+section.support{
+    background-color: #ffb3ab;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+section.s-container{
+    height: fit-content;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    flex-direction: column;
+    
+    position: relative;
+    top:-90px;
+    z-index: 10;
+}
+
+section.s-card{
+    background-color: #ffffff;
+    box-shadow: 0px 0px 8px #C4C4C4;
+    padding: 5em 2.5em 2.5em 2.5em;
+    margin: 20px 15px;
+    width: 90%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+img.s-line{
+    padding: 1em 0 2.5em 0;
+    width: 40%;
+}
+
+h4.s-title{
+    padding: 2em 0 0 0;
+}
+
+div.s-text{
+    font-weight: 300;
+}
+
+section.volunteer{
+    position: inherit;
+}
+
+.donate-btn{
+    background-color: #4EC3E0;
+    border-color: #4EC3E0;
+}
+.volunteer-btn{
+    background-color: #89C23F;
+    border-color: #89C23F;
+}
+.sponsor-btn{
+    background-color: #ff6d6a;
+    border-color: #ff6d6a;
+}
+
+.b-main{
+    margin: 30px 0;
+}
+
+
+
+/*-------------------------CONTACT--------------------------- */
+
+section.contact-ban{
+    background-image: url("../img/banners/cndban2-mobile.png");
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 180px;
+}
+
+section.contact-card{
+    position: relative;
+    top: 70%;
+    left: 0%;
+    z-index: 10;
+
+    height: fit-content;
+
+    background-color: #ffffff;
+    box-shadow: 0px 0px 8px #79756F;
+    width: 90%;
+    padding: 60px 60px;
+}
+
+div.c-info{
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    
+    font-size: .95em;
+    font-weight: 300;
+}
+
+a.c-info{
+    text-decoration: none;
+    color: #79756F;
+}
+
+img.c-info{
+    margin: 0 20px 0 0;
+}
+
+/******************** Desktop Screen *********************** */
+@media screen and (min-width: 950px) {
+
+    /*--------------------HEADER---------------------------- */
+
+    section.header{
+        background-image: url("../img/banners/CnDban-desktop.png");
+        height: 65vh;
+    }
+    
+    /*--------------------------INFO--------------------------- */
+
+    section.info{
+        padding: 100px 260px 160px;
+        font-weight: 400;
+    }
+
+    /*------------MISSION VISION VALUES-------------------- */
+
+    section.s-container{
+        
+        flex-direction: row;
+    }
+
+    section.s-container{
+        width: 75%;
+        flex-direction: row;
+        position: inherit;
+    }
+    
+    section.s-card{
+        margin: 10px 15px 50px 15px;
+        width: 28%;
+    }
+
+    section.volunteer{
+        position: relative;
+        top:-100px;
+        z-index: 10;
+    }
+
+    .donate-btn:hover{
+        color: #4EC3E0;
+    }
+    .volunteer-btn:hover{
+        color: #89C23F;
+    }
+    .sponsor-btn:hover{
+        color: #ff6d6a;
+    }
+
+    /*--------------------CONTACT--------------------------- */
+
+    section.contact-ban{
+        background-image: url("../img/banners/cndban2-desktop.png");
+        height: 60vh;
+        margin-bottom: 150px;
+
+        display: block;
+    }
+
+    section.contact-card{
+        top: 65%;
+        left: 55%;
+        
+        width: 35%;
+        padding: 50px 80px;
+    }
+
+    div.c-info{
+        margin: 20px 0;
+    }
+
+    a.c-info{
+        text-decoration: none;
+        color: #79756F;
+    }
+
+    img.c-info{
+        margin: 0 20px 0 0;
+    }
+
+}

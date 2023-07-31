@@ -1,0 +1,256 @@
+/******************* Phone/Mobile Screen ******************* */
+
+/*-------------------------HEADER--------------------------- */
+
+section.header{
+    background-image: url("../img/banners/actoneban-mobile.png");
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/*-------------------------BODY--------------------------- */
+
+section.act-info{
+    width: 90vw;
+    height: fit-content;
+    padding-top: 10vh;
+    display: flex;
+    padding-left: 10vw;
+    flex-direction: column-reverse;
+}
+
+/*----------------------SIDE CARD------------------------- */
+
+section.info{
+    width: 90vw;
+    height: 80vh;
+    display: flex;
+    
+
+}
+
+section.card{
+    width: 90%;
+    height: fit-content;
+    justify-content: center;
+    align-items: start;
+    padding: 20% 0;
+    font-size: .9em;
+}
+
+.c-sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: .6em 0;
+}
+
+img.icon{
+    margin: 1em 2em;
+}
+
+div.regist-btn{
+    margin-top: 2.5em;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+button.regist-btn{
+    background-color: #4EC3E0;
+    border-color: #4EC3E0;
+}
+
+button.regist-btn:hover{
+    background-color: #fff;
+    color: #4EC3E0;
+}
+
+/*--------------------ACT DESCRIPTION------------------------- */
+
+div.back{
+    display: flex;
+    flex-direction: row;
+}
+
+.back{
+    color: #C4C4C4;
+    text-decoration: none;
+}
+
+img.back{
+    margin-right: 2em;
+}
+
+h1.d-title{
+    margin-top: 1em;
+}
+
+.type-btn{
+    height: 1.8em;
+    width: fit-content;
+    padding: 0 2px;
+} 
+.event{
+    background-color: #ff6d6a;
+    border-color: #ff6d6a;
+}
+
+.event:hover{
+    background-color: #ff6d6a;
+    color: #fff;
+}
+
+div.text{
+    margin: 1em 0 5em 0;
+}
+
+section.d-content{
+    margin-top: 4em;
+
+}
+
+/*--------------------------HOST---------------------------- */
+
+section.abouthost{
+    background-color: #ffb3ab;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.h-card{
+    width: 90%;
+    align-items: center;
+    /* padding-left: 5em; */
+    margin: 5em 0;
+}
+
+h4.h-card{
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+section.h-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+h4.h-info{
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+div.h-info{
+    padding: 0 2em;
+    width: 100%;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 4.5em;
+    height: 4.5em;
+    border-radius: 50%;
+    margin: 0 0 1em 0;
+}
+
+
+
+/******************** Desktop Screen *********************** */
+@media screen and (min-width: 950px) {
+
+    /*--------------------HEADER---------------------------- */
+
+    section.header{
+        background-image: url("../img/banners/actoneban-desktop.png");
+        height: 30vh;
+    } 
+
+    /*---------------------BODY--------------------------- */
+
+
+    section.act-info{
+        width: 100vw;
+        flex-direction: row;
+        padding-left: 0vw;
+    }
+
+    /*----------------------SIDE CARD------------------------- */
+
+
+    section.info{
+        width: 30vw;
+        justify-content: flex-end;
+        
+    }
+
+    section.descripcion{
+        padding-left: 4em;
+        width: 60vw;
+
+    }
+
+    section.card{
+        width: 70%;
+        height: 70%;
+        padding: 0 2.5em 0 0;
+    }
+    
+    /*-------------------------HOST---------------------------- */    
+
+    section.abouthost{
+        height: 40vh;
+       
+    }
+
+    section.h-content{
+        align-items: flex-start;
+        flex-direction: row;
+    }
+
+    h4.h-card{
+        text-align: left;
+        align-self: flex-start;
+    }
+
+    section.h-card{
+        width: 70%;
+        display: flex;
+        padding-left: 8% ;
+        text-align: left;
+    }
+
+    section.h-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: left; 
+        
+    }
+
+    h4.h-info{
+        text-align: left;
+        margin-bottom: 0;
+    }
+
+    div.h-info{
+        padding: 0;
+        width: 70%;
+        text-align: left;
+    }
+
+    .avatar{
+        margin-right: 2em;
+    }
+}

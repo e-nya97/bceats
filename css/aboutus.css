@@ -1,0 +1,243 @@
+/******************* Phone/Mobile Screen ******************* */
+
+section.banner{
+    background-position: center;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*-------------------------HEADER--------------------------- */
+
+section.header{
+    background-image: url("../img/banners/aboutban_mobile.png");
+    height: 80vh;
+}
+
+/*--------------------------INFO--------------------------- */
+
+section.info{
+    height: fit-content;
+    padding: 100px 55px 160px;
+    text-align: center;
+    font-weight: 300;
+}
+
+h1.i-title{
+    color: #FCD757 ;
+    padding: 0 0 40px 0;
+}
+
+div.i-text{
+    margin-top: 2em;
+    line-height: 2em;
+}
+
+
+/*-----------------MISSION VISION VALUES-------------------- */
+
+section.mvv{
+    background-color: #FCD757;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+section.mvv-container{
+    height: fit-content;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    flex-direction: column;
+    
+    position: relative;
+    top:-90px;
+    z-index: 10;
+}
+
+section.mvv-card{
+    background-color: #ffffff;
+    box-shadow: 0px 0px 8px #C4C4C4;
+    padding: 5em 2.5em 2.5em 2.5em;
+    margin: 20px 15px;
+    width: 90%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+img.mvv-line{
+    padding: 1.5em 0;
+    width: 40%;
+}
+
+h4.mvv-title{
+    padding: 2em 0 1.5em 0;
+}
+
+div.mvv-text{
+    font-weight: 300;
+}
+
+section.vision{
+    position: inherit;
+}
+
+
+/*-------------------------BANNER--------------------------- */
+
+section.sub-ban{
+    background-image: url("../img/banners/aboutban2-mobile.png");
+    height: 80vh;
+}
+
+
+/*-----------------------ASSOCIATES------------------------- */
+
+section.associates{
+    display: flex;
+    justify-content:center;
+    margin: 0;
+    padding: 80px 0px;
+    width: 100vw;
+}
+
+section.a-info{
+    height: fit-content;
+    font-weight: 300;
+    width: 80%;
+}
+
+
+h1.a-title{
+    color: #4ec3e0 ;
+    text-align: left;
+}
+
+div.a-text{
+    margin-top: 2em;
+    line-height: 2em;
+    padding-left: 0;
+}
+
+section.a-logo-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+div.line{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+div.block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:10px;
+}
+
+div.cell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 20vw; */
+
+}
+
+img.a-logos{
+    width: 30vw;
+}
+
+
+/******************** Desktop Screen *********************** */
+@media screen and (min-width: 950px) {
+
+    /*--------------------HEADER---------------------------- */
+
+    section.header{
+        background-image: url("../img/banners/aboutban_desktop.jpg");
+        height: 65vh;
+    } 
+
+    /*--------------------------INFO--------------------------- */
+
+    section.info{
+        padding: 100px 260px 160px;
+        font-weight: 400;
+    }
+
+    /*------------MISSION VISION VALUES-------------------- */
+
+    section.mvv-container{
+        
+        flex-direction: row;
+    }
+
+    section.mvv-container{
+        width: 75%;
+        flex-direction: row;
+        position: inherit;
+    }
+    
+    section.mvv-card{
+        margin: 10px 15px 50px 15px;
+        width: 28%;
+    }
+
+    section.vision{
+        position: relative;
+        top:-100px;
+        z-index: 10;
+    }
+
+    /*--------------------BANNER--------------------------- */
+
+    section.sub-ban{
+        background-image: url("../img/banners/aboutban2-desktop.png");
+        height: 70vh;
+    }
+
+    /*------------------ASSOCIATES------------------------- */
+
+    section.a-logo-sec{
+        display: flex;
+        flex-direction: column;
+        
+   
+    }
+   
+    div.line{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+
+    div.block{
+
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        margin: 0;
+    }
+
+    div.a-text{
+        padding-left: 4em;
+    }
+
+    div.cell{
+        width: 20vw;
+    }
+
+    img.a-logos{
+        width: auto;
+    }
+    
+
+}

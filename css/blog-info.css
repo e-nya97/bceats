@@ -1,0 +1,249 @@
+/******************* Phone/Mobile Screen ******************* */
+
+/* -------------------------TAGS---------------------------- */
+
+section.guide{
+    display: none;
+    flex-direction: column;
+    margin: 5vh 10vw 0vh 10vw;
+    align-content: center;
+}
+
+button.guide{
+    margin-bottom: 2%;
+}
+
+.type-btn{
+    height: 1.8em;
+    width: fit-content;
+    padding: 0 2px;
+    text-transform: uppercase ;
+} 
+
+
+.event{
+    background-color: #ff6d6a;
+    border-color: #ff6d6a;
+}
+.workshop{
+    background-color: #89C23F;
+    border-color: #89C23F;
+}
+.recipe{
+    background-color: #FCD757;
+    border-color: #FCD757;
+}
+.t-blog{
+    background-color: #8A75D1;
+    border-color: #8A75D1;
+}
+
+.all:hover{
+    background-color: #C4C4C4;
+}
+.workshop:hover{
+    background-color: #89C23F;
+}
+.event:hover{
+    background-color: #ff6d6a;
+}
+.recipe:hover{
+    background-color: #FCD757;
+}
+.t-blog:hover{
+    background-color: #8A75D1;
+}
+
+
+
+/* ------------------------HEADER--------------------------- */
+
+section.header{
+    background-image: url("../img/banners/carrotban-mobile.png");
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* -------------------------BLOG---------------------------- */
+
+section.blog-cont{
+    width: 90vw;
+    height: fit-content;
+    padding-top: 10vh;
+    display: flex;
+    padding-left: 10vw;
+    flex-direction: column;
+}
+
+/* ----------TOP------------*/
+div.back{
+    display: flex;
+    flex-direction: row;
+}
+
+.back{
+    color: #C4C4C4;
+    text-decoration: none;
+}
+
+img.back{
+    margin-right: 2em;
+}
+
+h1.d-title{
+    margin-top: 1em;
+}
+
+
+/* ---------TEXT------------*/
+
+h1.d-title{
+    margin-top: 1em;
+}
+
+div.text{
+    margin: 1em 0 5em 0;
+    line-height: 2em;
+}
+
+section.d-content{
+    margin-top: 4em;
+
+}
+
+/* -------PICTURES----------*/
+
+div.pictures{
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 3em;
+}
+
+img.pictures{
+    height: 40vh;
+    margin: 0 1em 1em 0;
+}
+
+
+
+/* -------------------------CARD---------------------------- */
+
+section.info{
+    width: 90vw;
+    display: flex;
+    margin-bottom: 5vh;
+
+}
+
+section.card{
+    width: 90%;
+    height: fit-content;
+    justify-content: center;
+    align-items: start;
+    padding: 10% 0;
+    font-size: .9em;
+    
+}
+
+.c-sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: .6em 0;
+}
+
+img.icon{
+    margin: 1em 2em;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+    margin: 0 0 1em 0;
+}
+
+div.line{
+    width: 100%;
+    margin: 2em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.share{
+  flex-direction: column;
+}
+
+img.share{
+    margin: .5em .8em;
+}
+
+h4.share{
+    margin: 1em;
+}
+
+a.share{
+    text-decoration: none;
+}
+
+
+
+/******************** Desktop Screen *********************** */
+@media screen and (min-width: 950px) {
+
+    /*--------------------HEADER---------------------------- */
+
+    section.header{
+        background-image: url("../img/banners/carrotban-desktop.png");
+        height: 30vh;
+    } 
+
+    /*---------------------BODY--------------------------- */
+
+
+    section.blog-cont{
+        width: 85vw;
+        flex-direction: row;
+        padding-left: 0vw;
+        justify-content: center;
+        margin: 0 0 10vh 5vw ;
+    }
+
+    div.pictures{
+        flex-direction: row;
+    }
+
+    /*----------------------CARD------------------------- */
+
+
+    section.info{
+        width: 30vw;
+        justify-content: flex-end;
+    }
+
+    section.descripcion{
+        padding-left: 4em;
+        width: 60vw;
+
+    }
+
+    section.card{
+        width: 75%;
+        height: fit-content;
+        /* padding: 20% 0; */
+    }
+    
+    
+
+    .avatar{
+        margin-right: 2em;
+    }
+}

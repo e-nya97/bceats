@@ -1,0 +1,450 @@
+/****************** Colour Reference Chart ******************
+********************************************* colour ******** 
+
+Dark Gray ---------------------------------  #79756F
+Light Gray --------------------------------  #C4C4C4
+Blue --------------------------------------  #4ec3e0
+Yellow ------------------------------------  #FCD757
+Red ---------------------------------------  #ff6d6a
+Pink --------------------------------------  #ffb3ab
+Purple ------------------------------------  #8A75D1
+Green -------------------------------------  #89C23F
+
+*/
+
+/*************** Font Weight Reference chart ****************
+********************************************* Weight ******** 
+
+Light -------------------------------------  300
+Regular -----------------------------------  400
+Medium ------------------------------------  500
+Bold --------------------------------------  700
+Extra Bold --------------------------------  800
+
+*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Prompt;
+    color: #79756F;
+    overflow-x: hidden;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* FONTS */
+
+nav{
+    font-weight: 400;
+    font-size: 0.85em;
+    letter-spacing: 0.02em;
+}
+
+
+h1{   /* Headers*/
+    font-weight: 800;
+    font-size: 2.8em;
+    line-height: 1.2em;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+h2{   /* Headers -- */
+    font-weight: 700;
+    font-size: 2.25em;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+h3{   /* Sub-Headers*/
+    font-weight: 700;
+    font-size: 1.75em;
+    line-height: 1.2em;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+h4{   /* Side-Headers*/
+    font-weight: 700;
+    font-size: 1.1em; /*check size*/
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+.b-main{
+    font-weight: 600;
+    letter-spacing: .5px;
+   
+    font-size: .75em;
+}
+
+
+section.card{
+    background-color: #fff; 
+    display: flex;
+    flex-direction: column;
+    border-radius: 0  0 3px 3px ;
+    box-shadow: 0px 0px 8px #C4C4C4;
+    
+}
+
+a.card{
+    text-decoration: none;
+    color: #79756F;
+}
+
+
+
+
+/******************* Phone/Mobile Screen ******************* */
+
+/*-------------------------MENU----------------------------- */
+
+.navbar {
+
+    background: #ffffff;
+    padding: 2px 5%;
+    box-shadow: 2px 2px 10px;
+    width: 100vw;
+    align-items: center;
+    z-index: 100;
+
+}
+
+.fa-bars{
+    font-size: 2em;
+    padding-top: 10px;
+}
+
+.main-nav {
+    list-style-type: none;
+    display: none;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: #595757;
+}
+
+.main-nav li {
+    text-align: left;
+    padding-left: 30px;
+    margin: 30px auto;
+}
+
+.logo {
+    margin-left: 0px;
+    display: inline-block;
+    padding-top: 5px;
+    width: 130px;
+}
+
+.navbar-toggle {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    color: #595757;
+}
+
+.active {
+    display: block;
+}
+
+button{
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: solid 3px;
+    color: white;
+}
+
+.support-btn{
+    background-color: #4EC3E0;
+    border-color: #4EC3E0;
+    font-weight: 600;
+    letter-spacing: .5px;
+    margin-left: 0px;
+    font-size: .9em;
+}
+
+a.us{
+    text-decoration: none;
+    color: #79756F;
+}
+.us{
+    color: #79756F;
+    font-size: 1em;
+}
+
+
+/* NAV ACTIVE STATE */
+
+.nav_active{
+    border-bottom: 3px solid;
+}
+
+.home.nav_active {    
+    border-bottom-color: #ff6d6a;
+}
+
+.aboutus.nav_active {    
+    border-bottom-color: #FFB3AB;
+}
+
+.activities.nav_active {
+    border-bottom-color: #89C23F;
+}
+
+.blog.nav_active {
+    border-bottom-color: #8A75D1;
+}
+
+.contact.nav_active {
+    border-bottom-color: #FCD757;
+}
+
+/*-------------------------------FOOTER-----------------------------------*/
+
+footer{
+    background-color: white;
+    margin-bottom: 20px; 
+    /* border-top: #595757;
+    border-width: 2px; */
+}
+
+
+.f-padding{
+    padding-left: 50px;
+}
+
+.f-nav{
+    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    color: black;
+    padding: 0;
+    width: 100vw;
+    
+}
+
+li.f-nav{
+    margin: 10px auto;
+    
+}
+
+section.f-nav{
+    padding: 10% 0;
+}
+
+.f-logo{
+    width: 100px;
+}
+.fl-m{
+    display: block;
+    margin-left: 6%;
+}
+.fl-d{
+    display: none;
+}
+
+section.f-socialmedia{
+    display: flex;
+    justify-content: left;
+    padding-top: 10px;
+    width: 100vw;
+}
+
+img.f-socialmedia{
+    padding-bottom: 10px;
+    width: 40px;
+    margin: 5px;
+}
+
+.r-info{
+    font-size: .6em;
+    text-align: left;
+    color: #C4C4C4;
+}
+
+.nav_active{
+    font-weight: 600;
+}
+
+
+
+
+/******************** Desktop Screen *********************** */
+
+
+@media screen and (min-width: 1100px) {
+   
+    body{
+        font-size: 14px;
+    }
+
+    nav{
+        font-weight: 500;
+        font-size: 0.9em;
+    }
+
+    section.card{
+        border-radius: 3px;
+    }
+
+    /*------------------- MENU ----------------------------- */
+    .navbar {
+        /* position: fixed; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .main-nav {
+        display: flex;
+        align-items: center;
+        
+        justify-content: space-between;
+        margin-right: 30px;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .main-nav li {
+        text-align: center;
+        margin: 15px auto;
+        padding: 0px;
+    }
+
+    .nav-links {
+        margin-left: 40px;
+    }
+
+    .navbar-toggle {
+        display: none;
+    }
+    
+    .logo {
+        margin-left: 10px;
+    }
+
+    .home{
+        display: none;
+    }
+
+    .support-btn{
+        margin-left: 30px;
+    }
+
+/* NAV HOVER STATE */
+
+    .nav-links:hover {
+        border-bottom: 3px solid;
+        font-weight: 600;
+    }
+
+    .aboutus.nav-links:hover {
+        border-bottom-color: #FFB3AB;
+    }
+
+    .activities.nav-links:hover {
+        border-bottom-color: #89C23F;
+    }
+
+    .blog.nav-links:hover {
+        border-bottom-color: #8A75D1;
+    }
+
+    .contact.nav-links:hover {
+        border-bottom-color: #FCD757;
+    }
+
+    button:hover{
+        background-color: #ffffff;
+        border-width: 2px;
+    }
+    
+    .support-btn:hover{
+        color: #4EC3E0;
+    }
+
+
+    /*------------------ FOOTER ---------------------------- */
+    footer{
+        margin-bottom: 50px;
+        padding-left: 0px;
+    }
+
+    .f-nav{
+        align-items: center;
+        flex-direction: row;
+        margin-left: 0;
+        justify-content: space-between;
+        width: auto;
+    }
+    
+    li.f-nav{
+        padding-left: 0px;
+    }
+
+    section.f-nav{
+        align-items: center;
+        justify-content: center;
+        padding: 20px 100px 10px 10px;
+        box-shadow: 0px 4px 8px #C4C4C4;
+        width: 100vw;
+        height: 100px;
+        border: #ffffff;
+
+    }
+
+    .f-padding{
+        padding-left: 0px;
+    }
+
+    .f-logo{
+        width: 120px;
+        margin: 0 20px;
+    }
+    .fl-m{
+        display: none;
+    }
+    .fl-d{
+        display: block;
+    }
+
+    section.f-socialmedia{
+        padding-top: 40px;
+        justify-content: center;
+        margin: 0;
+        padding-left: 0;
+    }
+
+    img.f-socialmedia{
+        width: 30px;
+    }
+
+    .r-info{
+        text-align: center;
+    }
+
+}
+
+/******************** Bigger Screen *********************** */
+@media screen and (min-width: 1800px) {
+    body{
+        font-size: 16px;
+    }
+
+}
+
+
+
+
